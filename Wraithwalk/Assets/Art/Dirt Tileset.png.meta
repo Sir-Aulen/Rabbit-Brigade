@@ -1,17 +1,17 @@
 fileFormatVersion: 2
 guid: 5b1c274c1ab3882489f875737badb299
-timeCreated: 1518191292
+timeCreated: 1518741370
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
     21300000: Wall-E
     21300002: Corner-SE
     21300004: Edge-SE
-    21300006: Floor
+    21300006: Dirt-Wall
     21300008: Wall-N
     21300010: Corner-NE
     21300012: Edge-NE
-    21300014: Dirt Tileset_7
+    21300014: Dirt-Floor
     21300016: Wall-W
     21300018: Corner-NW
     21300020: Edge-SW
@@ -20,18 +20,18 @@ TextureImporter:
     21300026: Corner-SW
     21300028: Edge-NW
     21300030: Dirt Tileset_15
-    21300032: Wall-Edge-E
-    21300034: Wall-Corner-SE
-    21300036: Wall-End-SE
-    21300038: Wall-Edge-N
-    21300040: Wall-Corner-NE
-    21300042: Wall-End-NE
-    21300044: Wall-Edge-W
-    21300046: Wall-Corner-NW
-    21300048: Wall-End-SW
-    21300050: Wall-Edge-S
-    21300052: Wall-Corner-SW
-    21300054: Wall-End-NW
+    21300032: Dirt-Edge-E
+    21300034: Dirt-Corner-NE
+    21300036: Dirt-End-NE
+    21300038: Dirt-Edge-N
+    21300040: Dirt-Corner-NW
+    21300042: Dirt-End-NW
+    21300044: Dirt-Edge-W
+    21300046: Dirt-Corner-SW
+    21300048: Dirt-End-SW
+    21300050: Dirt-Edge-S
+    21300052: Dirt-Corner-SE
+    21300054: Dirt-End-SE
   externalObjects: {}
   serializedVersion: 4
   mipmaps:
@@ -108,7 +108,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Wall-Edge-E
+      name: Dirt-Edge-E
       rect:
         serializedVersion: 2
         x: 1
@@ -122,7 +122,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Wall-Corner-SE
+      name: Dirt-Corner-NE
       rect:
         serializedVersion: 2
         x: 34
@@ -136,7 +136,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Wall-End-SE
+      name: Dirt-End-NE
       rect:
         serializedVersion: 2
         x: 67
@@ -150,7 +150,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Floor
+      name: Dirt-Wall
       rect:
         serializedVersion: 2
         x: 100
@@ -164,7 +164,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Wall-Edge-N
+      name: Dirt-Edge-N
       rect:
         serializedVersion: 2
         x: 1
@@ -178,7 +178,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Wall-Corner-NE
+      name: Dirt-Corner-NW
       rect:
         serializedVersion: 2
         x: 34
@@ -192,7 +192,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Wall-End-NE
+      name: Dirt-End-NW
       rect:
         serializedVersion: 2
         x: 67
@@ -206,7 +206,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Dirt Tileset_7
+      name: Dirt-Floor
       rect:
         serializedVersion: 2
         x: 100
@@ -220,7 +220,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Wall-Edge-W
+      name: Dirt-Edge-W
       rect:
         serializedVersion: 2
         x: 1
@@ -234,7 +234,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Wall-Corner-NW
+      name: Dirt-Corner-SW
       rect:
         serializedVersion: 2
         x: 34
@@ -248,7 +248,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Wall-End-SW
+      name: Dirt-End-SW
       rect:
         serializedVersion: 2
         x: 67
@@ -276,7 +276,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Wall-Edge-S
+      name: Dirt-Edge-S
       rect:
         serializedVersion: 2
         x: 1
@@ -290,7 +290,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Wall-Corner-SW
+      name: Dirt-Corner-SE
       rect:
         serializedVersion: 2
         x: 34
@@ -304,7 +304,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Wall-End-NW
+      name: Dirt-End-SE
       rect:
         serializedVersion: 2
         x: 67
